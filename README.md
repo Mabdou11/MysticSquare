@@ -11,7 +11,9 @@ the initial square is generated from shuffeling the original square to not creat
 it was calculated using a blind search (9!/2) in the closed List without finding a solution. (exactly: 181440) for n =3
 or by typing the numbers one by one.
 
-A*: the Heuristic is calculated using the Sum of Manhattan Distance of all cases + Sum of misplaced tiles
+A*: 
+---
+the Heuristic is calculated using the Sum of Manhattan Distance of all cases + Sum of misplaced tiles
 plus G(x)= number of explored nodes for a solution.
 
 if we only use misplaced tiles, we lose the precision after 8 moves G(x) >> h(x), and the generated solution is longer and takes more time
@@ -53,11 +55,11 @@ found a solution !
 
 End. 
 took for all three: 224ms
----------------------
 
 
 
 Genetic: 
+--------
 Here we use floating point numbers to represent the moves [0-1]
 using those numbers we chose what move to chose next from an arranged set of moves {Up,Down,Left,Right}
 if the tile can't move to the left for example the new list of legal moves = {Up,Down,Right} and so on
