@@ -1,7 +1,7 @@
 # MysticSquare
 Solving the Mystic Square N-Tile Puzzle or Sliding-Tile Puzzle Using A* Algorithm and Genetic Algorithm
 For n = 3 (9 tiles)
-the goal square is:
+the goal square is:<br>
 [ ][1][2]<br>
 [3][4][5]<br>
 [6][7][8]<br>
