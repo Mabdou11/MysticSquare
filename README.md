@@ -99,5 +99,5 @@ it will then return only the list of moves that leads to the real solution.
   
 <br>
 <br>
-###### Note: as I constantly modify this code, you might find errors in the solution.
+ - Note: as I constantly modify this code, you might find errors in the solution.*
 <br>
